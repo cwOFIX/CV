@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> Artem Kudlenok</title>
+
+</head>
+<body>
+  <div class="preloader">
+  <div class="preloader__row">
+    <div class="preloader__item"></div>
+    <div class="preloader__item"></div>
+  </div>
+</div>
+<header><div class="buttons">
+  <a href="CV.html"><button class="raise">ENG</button> </a>
+ <a href="CV1.html"> <button class="raise">UA</button> </a>
+</div>
+  
+  <h1 align="center"> Artem Kudlenok</h1>
+  <hr>
+<div class="image">
+  <img src="face.jpg" style="width:250px; height: 300px; clip-path: circle(calc(50% - 40px)); border: 2px " align="left">
+  <div class="btn_wrap">
+        <span>Links</span>
+        <div class="container">
+          
+    </div>
+    <a href="education.html">
+            <img src="insta.png" style="width: 50px; height: 50px;" align="center"></a>
+
+          <a href="projects.html">
+            <img src="tg.png" style="width: 50px; height: 50px" align="center">
+
+            <a href="https://github.com/cwOFIX">
+              <img src="git.png" style="width: 50px; height: 50px" align="center">
+
+</a></div>
+    </div>
+  </header>
+
+  <div class="main">
+    <div class="content">
+      
+    </div>
+    
+  </div>
+
+
+
+
+
+
+    <script>
+  window.onload = function () {
+    document.body.classList.add('loaded');
+  }
+</script>
+<script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+</script>
+</body>
+</html>
