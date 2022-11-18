@@ -1,32 +1,42 @@
 body {
-	position: static;
-	background-color: blue ;
-	font-family: 'Poplar Std', monospace;
-	color: white;
+    position: static;
+    background-color: blue ;
+    font-family: 'Poplar Std', monospace;
+    color: white;
 }
 
 .headed { 
-	font-size: 40px;
+    font-size: 40px;
 
 
 }
 h1 {
-	font: bold;
+    font: bold;
  color: white;
  font-family: 'Courier New', monospace;
+
+}
+h4 {
+    font: bold;
+ color: white;
+ font-family: 'Courier New', monospace;
+ 
+}
+.bottom {
+    margin-top: 1000px;
 }
 .content {
-	position: absolute;
-	text-align: center;
-	background-color: #333;
-	align-content: center;
-	float: right;
-	margin-right: 100px;
-	padding-right: 10px;
-	margin-left: 300px;
-	margin-bottom: 500px;
-	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, serif;
-	font-size: 16px;
+    position: absolute;
+    text-align: center;
+    background-color: #333;
+    align-content: center;
+    float: right;
+    margin-right: 100px;
+    padding-right: 10px;
+    margin-left: 300px;
+    margin-bottom: 500px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, serif;
+    font-size: 16px;
 
 }
 .btn_wrap {
@@ -180,38 +190,38 @@ position: absolute;
 
 
  @keyframes pulse {
-	 0% {
-		 box-shadow: 0 0 0 0 var(--hover);
-	}
+     0% {
+         box-shadow: 0 0 0 0 var(--hover);
+    }
 }
  .raise:hover, .raise:focus {
-	 box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-	 transform: translateY(-0.25em);
+     box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+     transform: translateY(-0.25em);
 }
 
 
 
  .raise {
-	 --color: white;
-	 --hover: white;
+     --color: white;
+     --hover: white;
 }
 
  button {
-	 color: var(--color);
-	 transition: 0.25s;
+     color: var(--color);
+     transition: 0.25s;
 }
  button:hover, button:focus {
-	 border-color: var(--hover);
-	 color: #fff;
+     border-color: var(--hover);
+     color: #fff;
 }
  
  button {
-	 background: none;
-	 border: 2px solid;
-	 font: inherit;
-	 line-height: 1;
-	 margin: 0.5em;
-	 padding: 1em 2em;
+     background: none;
+     border: 2px solid;
+     font: inherit;
+     line-height: 1;
+     margin: 0.5em;
+     padding: 1em 2em;
 }
 
 
